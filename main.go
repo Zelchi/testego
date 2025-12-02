@@ -9,7 +9,6 @@ type Fruit struct {
 type Market interface {
 	Selling() bool
 	Marketing() bool
-	TestMethod() bool
 }
 
 func (fruit Fruit) Selling() {
